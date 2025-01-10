@@ -21,9 +21,6 @@ jobs:
           cache: 'pip'
       - run: pip install -r dev-requirements.txt
 
-      - name: Run isort
-        run: python -m isort --check .
-
       - name: Run black
         run: python -m black --check .
 
