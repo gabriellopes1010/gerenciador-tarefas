@@ -1,7 +1,9 @@
-import fastapi
 from uuid import uuid4
+
+import fastapi
 from fastapi import status
-from core.gerenciador_tarefas.models import TarefaEntrada, Tarefa
+
+from core.gerenciador_tarefas.models import Tarefa, TarefaEntrada
 
 app = fastapi.FastAPI()
 
